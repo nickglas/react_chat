@@ -1,0 +1,36 @@
+.friend-drawer{
+  padding: 10px 15px;
+  display: flex;
+  vertical-align: baseline;
+  background: #fff;
+  transition: .3s ease;
+}
+
+.friend-drawer--grey{
+  background: #eee;
+}
+
+.friend-drawer--onhover:hover, friend-drawer--onhover:hover .i{
+  background: #74b9ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.text-wrapper{
+  margin-left: 12px;
+  width: 70%;
+}
+
+.text-wrapper h6{
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+
+.text-wrapper p{
+  margin:0;
+}
+
+.friend-drawer-selected{
+  background: #74b9ff;
+  color: #eee;
+}

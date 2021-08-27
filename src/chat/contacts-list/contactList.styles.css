@@ -1,0 +1,5 @@
+.contacts-wrapper{
+  flex: 1 1 auto;
+  overflow-y: auto;
+  height: 200px;
+}
