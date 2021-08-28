@@ -1,7 +1,10 @@
 import { makeAutoObservable } from "mobx";
 import Contact from "../models/contact";
+import messageStore from "./messageStore";
+import { useStore } from "./store";
 
 export default class contactStore{
+
 
   pre_loaded_contacts: Contact[] = [
     new Contact('Nick Glas','https://randomuser.me/api/portraits/men/67.jpg','hey man!','23:04'),
@@ -17,6 +20,7 @@ export default class contactStore{
     makeAutoObservable(this)
     this.filteredContacts = this.pre_loaded_contacts
     this.selectedContact = this.pre_loaded_contacts[0]
+    
   }
 
   filterContacts = (e: React.ChangeEvent<HTMLInputElement>) => {
