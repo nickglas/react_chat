@@ -1,7 +1,5 @@
 import { makeAutoObservable } from "mobx";
 import Contact from "../models/contact";
-import messageStore from "./messageStore";
-import { useStore } from "./store";
 
 export default class contactStore{
 
