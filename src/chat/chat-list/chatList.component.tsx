@@ -6,11 +6,11 @@ import './chatList.styles.css'
 
 const Chatlist = () => {
 
-  const {messageStore: {pre_loaded_messages}} = useStore()
+  const {messageStore: {loaded_Messages}} = useStore()
 
   return (
     <div className="chat-panel">
-      {pre_loaded_messages.map((message) => (
+      {loaded_Messages.map((message) => (
         <Chatitem message={message} />
       ))}
     </div>

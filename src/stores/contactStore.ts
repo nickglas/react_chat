@@ -7,7 +7,6 @@ export default class contactStore{
     new Contact('Nick Glas','https://randomuser.me/api/portraits/men/67.jpg','hey man!','23:04'),
     new Contact('Sjon Don','https://randomuser.me/api/portraits/men/68.jpg','hey man!','11:34'),
     new Contact('Henk pieters','https://randomuser.me/api/portraits/men/69.jpg','hey man!','12:55'),
-    new Contact('Gerard de Waal','https://randomuser.me/api/portraits/men/2.jpg','hey man!','16:22'),
   ]
 
   filteredContacts: Contact[] = []
